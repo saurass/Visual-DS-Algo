@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+.showcase {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: red;
+}
+
+.histo-bar {
+    height: 100%;
+    width: 5px;
+    border: 2px solid black;
+    margin-left: 1px;
+}
+
+#play-area {
+    display: flex;
+    height: 80vh;
+    width: 80vw;
+    align-items: flex-end;
+    background-color: pink;
+}
